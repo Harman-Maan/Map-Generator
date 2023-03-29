@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  box-shadow: 0 0 1px 1px #fff;
+  align-items: start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  /* box-shadow: 0 0 0.25px 0.25px #fff; */
+}
+
+.deepest-water {
+  background-color: #4d6dc1;
+}
+
+.deep-water {
+  background-color: #6682ca;
+}
+
+.surface-water {
+  background-color: #8097d3;
+}
+
+.low-land {
+  background-color: #41ae76;
+}
+
+.normal-land {
+  background-color: #238b45;
+}
+
+.high-land {
+  background-color: #006d2c;
+}
+
+.highest-land {
+  background-color: #00441b;
+}
